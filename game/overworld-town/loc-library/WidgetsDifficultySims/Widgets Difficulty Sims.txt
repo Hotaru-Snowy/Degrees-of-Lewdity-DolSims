@@ -1,5 +1,3 @@
-		<<set $skulduggerysuccess to 0>>
-	<</if>>
 	<<if $citylibrarybook_14_2_trait is 1 and $skulduggerysuccess is 0>>
 		<<set _phaseSims1 to 15>>
 		<<if _phaseSims1 gte random(1, 100)>>
@@ -7,3 +5,4 @@
 		<</if>>
 		<<unset _phaseSims1>>
 	<</if>>
+	<<if _args[0] isnot "silent">>

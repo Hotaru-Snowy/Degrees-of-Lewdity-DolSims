@@ -1,1 +1,1 @@
-<span id="origin_day_ampm"><<ampm>></span>
+<<sidebarTime "stats">>

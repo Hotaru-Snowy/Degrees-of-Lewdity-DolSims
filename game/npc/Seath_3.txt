@@ -3,4 +3,4 @@
 		<<case "Alice" "Liddell">>
 			/* Missing all virginities. */
 			<<set $NPCName[_args[0]].virginity to clone(setup.NPCVirginityTypes)>>
-		<<case "Gwylan" "Zephyr">>
+		<<case "Alex" "Darryl" "Sirris" "Briar" "Wren" "Ivory Wraith" "Gwylan" "Zephyr">>
